@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>3D Earth Globe</title>
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+    <div id="search-container">
+      <input
+        type="text"
+        id="searchInput"
+        placeholder="Enter a location (e.g., New York, Tokyo, Paris)"
+      />
+      <button id="searchButton">Search</button>
+    </div>
+
+    <div id="controls-panel">
+      <button id="defaultView" class="active">Default View</button>
+      <!-- <button id="politicalView">Political View</button>
+      <button id="satelliteView">Satellite View</button> -->
+      <button id="toggleBorders">Toggle Borders</button>
+      <button id="toggleCountryLabels">Toggle Country Names</button>
+      <button id="toggleClouds">Toggle Clouds</button>
+      <button id="toggleAtmosphere">Toggle Atmosphere</button>
+      <button id="toggleRotation">Toggle Rotation</button>
+      <button id="resetView">Reset View</button>
+      <button id="toggleTerminator">Show Day/Night</button>
+      <button id="addFlightPath">Add Flight Path</button>
+      <button id="toggleWeather">Add Weather</button>
+      <button id="satelliteView">Satellite View</button>
+      <button id="nightView">Night View</button>
+      <button id="terrainView">Terrain View</button>
+    </div>
+
+    <div id="status"></div>
+    <div id="info-panel"></div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
